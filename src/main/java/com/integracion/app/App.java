@@ -10,6 +10,10 @@ public class App
 	public static int suma(int a, int b) {
     	return a+b;
     }
+	
+	public static int resta(int a, int b) {
+		return a-b;
+	}
 	    
 	
     public static void main( String[] args )
@@ -17,7 +21,7 @@ public class App
         System.out.println( "Hello Jose!" );
         
         System.out.println(suma(1, 2));
-        
+        System.out.println(resta(2, 7));
     }
     
  
