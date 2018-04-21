@@ -7,7 +7,7 @@ package com.integracion.app;
 public class App 
 {
 	
-	public int suma(int a, int b) {
+	public static int suma(int a, int b) {
     	return a+b;
     }
 	    
@@ -15,8 +15,8 @@ public class App
     public static void main( String[] args )
     {
         System.out.println( "Hello Jose!" );
-        App i = new App();
-        System.out.println(i.suma(1, 2));
+        
+        System.out.println(suma(1, 2));
         
     }
     
