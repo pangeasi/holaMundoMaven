@@ -12,7 +12,7 @@ public class App
     }
 	
 	public static int resta(int a, int b) {
-		return a+b;
+		return a-b;
 	}
 	    
 	
