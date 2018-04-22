@@ -1,9 +1,6 @@
 package com.integracion.app;
 
-/**
- * Hello world!
- *
- */
+
 public class App 
 {
 	
